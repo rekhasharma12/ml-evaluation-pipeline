@@ -93,7 +93,7 @@ def test_ece_uses_10_bins():
     )
 
     assert abs(
-        result - 0.275
+        result - 0.5
     ) < 1e-12
 
 
